@@ -2,6 +2,7 @@
 <div>
   <div>我在试突</div>
   <div>我在弄冲突第二个</div>
+  <div>我新建分支dev</div>
 <el-menu :default-active="activeIndex" class="el-menu-demo" mode="horizontal" @select="handleSelect">
   <el-menu-item index="1">处理中心</el-menu-item>
   <el-submenu index="2">
