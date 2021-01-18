@@ -1,6 +1,7 @@
 <template>
-<div>
-  <div>我在试突</div>
+<div style="width:100%;height:100%">
+  
+  <!-- <div>我在试突</div>
   <div>我在弄冲突第二个</div>
   <div>我新建分支dev</div>
   <div>我现在在dev分支</div>
@@ -57,7 +58,9 @@
     <i class="el-icon-setting"></i>
     <span slot="title">导航四</span>
   </el-menu-item>
-</el-menu>
+</el-menu> -->
+<router-view></router-view>
+<!-- <router-view name="h"></router-view> -->
 </div>
 </template>
 <script>
